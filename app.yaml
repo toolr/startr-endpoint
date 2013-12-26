@@ -14,3 +14,6 @@ libraries:
   version: latest
 - name: endpoints
   version: 1.0
+
+skip_files:
+- README.md
