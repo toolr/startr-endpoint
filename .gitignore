@@ -1,3 +1,4 @@
 index.yaml
 *.p12
 xiki
+*.pyc
