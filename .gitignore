@@ -3,3 +3,4 @@ index.yaml
 xiki
 *.pyc
 client_secret.json
+debug_data.json
