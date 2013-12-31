@@ -8,12 +8,23 @@ handlers:
 # Endpoints handler
 - url: /_ah/spi/.*
   script: startr_api.APPLICATION
+- url: /
+  script: main.application
+- url: /stylesheets
+  static_dir: app/stylesheets
+- url: /js
+  static_dir: app/js
+- url: /images
+  static_dir: app/images
 
 libraries:
 - name: pycrypto
   version: latest
 - name: endpoints
   version: 1.0
-
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
 skip_files:
 - README.md

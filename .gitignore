@@ -2,5 +2,8 @@ index.yaml
 *.p12
 xiki
 *.pyc
+*.pem
+settings.json
 client_secret.json
-debug_data.json
+*.lock
+app/.sass-cache/
